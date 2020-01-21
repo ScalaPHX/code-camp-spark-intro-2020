@@ -10,7 +10,6 @@ name := "Scala.CodeCamp.Spark.Demo"
 
 lazy val appVersion = "0.0.1"
 lazy val sparkVersion = "2.4.4"
-lazy val jacksonVersion = "2.8.3"
 lazy val hadoopVersion = "2.7.3"
 lazy val scalaTestVersion = "3.0.1"
 lazy val log4jVersion = "2.8.1"
@@ -35,16 +34,6 @@ lazy val commonSettings = Seq(
   organization := "com.acme",
   version := appVersion,
   scalaVersion := "2.11.7",
-
-//  libraryDependencies ++= Seq(
-//    "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
-//      excludeAll(
-//      ExclusionRule(organization = "com.sun.jersey")
-//      , ExclusionRule(organization = "com.sun.jersey.contribs")
-//      , ExclusionRule(organization = "com.amazonaws")
-//      , ExclusionRule(organization = "org.apache.hadoop")
-//    )
-//  ),
 
   resolvers ++= Seq(
     "Typesafe Releases" at "http://repo.typesafe.com/typesafe/maven-releases/",
