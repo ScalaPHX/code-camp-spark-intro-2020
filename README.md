@@ -1,12 +1,11 @@
 # The Spark Application from the Jan 2020 Mini-code camp.
 ---
-
-## Part 1: Multi Module Spark Project Setup
 **Goals:**
 1.  Implement a buildable multi module SBT Scala Apache Spark project
 2.  Implement unit and local integration testable Apache Spark Code
 3.  Understand how and when to use SBT Assembly and SBT Shading when building a Scala Apache Spark job
 
+## Part 1: Multi Module Spark Project Setup
 ### Step 1:  Intellij SBT Project Setup
 **Review:**
 1.  build.sbt
