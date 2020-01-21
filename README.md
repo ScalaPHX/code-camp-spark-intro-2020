@@ -34,18 +34,17 @@ sbt clean compile test assembly
 **Typical common code:**
 1.  Common utils
 2.  Common UDF's
-3.  unit tests
+3.  Unit tests
 ### Step 2:  Organize Spark code + Unit Tests
 1.  Word count Spark job with Command Line Interface (CLI) style params
 2.  Unit tests
-3.  Integration tests
 
 ### Step 3:  IDE + SBT run unit tests
 ---
 
 ## Part 3: Spark Job Local Integration Test + Package Assembly
 ### Step 2: What is shading and assembly?
-Local integration test (IT)
+1.  Local Spark integration test (IT)
 
 ### Step 1: What is shading and assembly?
 1.  When to use shading?
