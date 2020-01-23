@@ -36,16 +36,6 @@ lazy val commonSettings = Seq(
   version := appVersion,
   scalaVersion := "2.11.7",
 
-//  libraryDependencies ++= Seq(
-//    "org.apache.spark" %% "spark-sql" % sparkVersion % "provided"
-//      excludeAll(
-//      ExclusionRule(organization = "com.sun.jersey")
-//      , ExclusionRule(organization = "com.sun.jersey.contribs")
-//      , ExclusionRule(organization = "com.amazonaws")
-//      , ExclusionRule(organization = "org.apache.hadoop")
-//    )
-//  ),
-
   resolvers ++= Seq(
     "Typesafe Releases" at "http://repo.typesafe.com/typesafe/maven-releases/",
     "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
