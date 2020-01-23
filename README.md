@@ -1,5 +1,7 @@
 # The Spark Application from the Jan 2020 Mini-code camp.
+
 ---
+
 **Goals:**
 1.  Implement a buildable multi module SBT Scala Apache Spark project
 2.  Implement unit and local integration testable Apache Spark Code
@@ -43,6 +45,7 @@ sbt clean compile test assembly
 2.  Unit tests
 
 ### Step 3:  IDE + SBT run unit tests
+
 ---
 
 ## Part 3: Spark Job Local Integration Test + Package Assembly
